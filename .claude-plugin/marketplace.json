@@ -1,0 +1,23 @@
+{
+  "name": "paid-ads-skills-spain",
+  "owner": {
+    "name": "Baker Agency",
+    "url": "https://github.com/Baker-Agency"
+  },
+  "metadata": {
+    "description": "Paid ads skills for the Spanish market — Google Ads, Meta Ads, and more. Lead gen, SaaS, and services focus.",
+    "version": "1.0.0",
+    "repository": "https://github.com/Baker-Agency/paid-ads-skills-spain"
+  },
+  "plugins": [
+    {
+      "name": "paid-ads-skills-spain",
+      "description": "Paid ads skills for the Spanish market. Google Ads campaign management, optimization, scaling, and auditing for lead gen, SaaS, and services targeting Spain.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/google-ads-spain"
+      ]
+    }
+  ]
+}
