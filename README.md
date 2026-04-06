@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="header-readme.gif" alt="Baker Agency" width="100%">
+</p>
+
 # Skills de Paid Ads para Agentes IA — Mercado Español
 
 Colección de skills para agentes IA especializadas en gestión de campañas de publicidad de pago en el mercado español (España). Para agencias, freelancers y equipos in-house que gestionan PPC para lead gen, SaaS y servicios.
