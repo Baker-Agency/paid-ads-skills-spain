@@ -1,132 +1,132 @@
-# Paid Ads Skills for AI Agents — Spanish Market
+# Skills de Paid Ads para Agentes IA — Mercado Español
 
-A collection of AI agent skills for managing paid advertising campaigns in the Spanish market (Spain). Built for agencies, freelancers, and in-house marketers managing PPC for lead gen, SaaS, and services businesses.
+Colección de skills para agentes IA especializadas en gestión de campañas de publicidad de pago en el mercado español (España). Para agencias, freelancers y equipos in-house que gestionan PPC para lead gen, SaaS y servicios.
 
-Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
+Compatible con Claude Code, OpenAI Codex, Cursor, Windsurf y cualquier agente que soporte la [Agent Skills spec](https://agentskills.io).
 
-Built by [Baker Agency](https://github.com/Baker-Agency).
+Creado por [Baker Agency](https://github.com/Baker-Agency).
 
-## What are Skills?
+## ¿Qué son las Skills?
 
-Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a paid ads task and apply the right frameworks, benchmarks, and best practices — specifically adapted for the Spanish market.
+Las skills son archivos markdown que dan a los agentes IA conocimiento especializado y workflows para tareas específicas. Al añadirlas a tu proyecto, tu agente reconoce cuándo estás trabajando en paid ads y aplica los frameworks, benchmarks y mejores prácticas correctos — adaptados al mercado español.
 
-## Available Skills
+## Skills Disponibles
 
-| Skill | Description |
+| Skill | Descripción |
 |-------|-------------|
-| [google-ads-spain](skills/google-ads-spain/) | Complete Google Ads management for Spain. Setup, optimize, scale, and audit campaigns for lead gen, SaaS, and services. Includes bidding progression, Quality Score optimization, Spanish ad copy, GDPR/LOPD tracking, seasonality calendar, and CC.AA. targeting. |
+| [google-ads-spain](skills/google-ads-spain/) | Gestión completa de Google Ads para España. Setup, optimización, escalado y auditoría de campañas para lead gen, SaaS y servicios. Incluye progresión de pujas, Quality Score, copy en español, tracking GDPR/LOPD, calendario estacional y targeting por CC.AA. |
 
-### Coming Soon
+### Próximamente
 
-- `meta-ads-spain` — Meta Ads (Facebook/Instagram) for the Spanish market
-- `linkedin-ads-spain` — LinkedIn Ads for B2B in Spain
-- `tiktok-ads-spain` — TikTok Ads for the Spanish market
+- `meta-ads-spain` — Meta Ads (Facebook/Instagram) para el mercado español
+- `linkedin-ads-spain` — LinkedIn Ads para B2B en España
+- `tiktok-ads-spain` — TikTok Ads para el mercado español
 
-## Installation
+## Instalación
 
-### Option 1: CLI Install (Recommended)
+### Opción 1: CLI (Recomendado)
 
-Use [npx skills](https://github.com/vercel-labs/skills) to install skills directly:
+Usa [npx skills](https://github.com/vercel-labs/skills) para instalar directamente:
 
 ```bash
-# Install all skills
+# Instalar todas las skills
 npx skills add Baker-Agency/paid-ads-skills-spain
 
-# Install specific skills
+# Instalar una skill específica
 npx skills add Baker-Agency/paid-ads-skills-spain --skill google-ads-spain
 
-# List available skills
+# Listar skills disponibles
 npx skills add Baker-Agency/paid-ads-skills-spain --list
 ```
 
-This automatically installs to your `.agents/skills/` directory (and symlinks into `.claude/skills/` for Claude Code compatibility).
+Se instala automáticamente en `.agents/skills/` (y crea symlinks en `.claude/skills/` para compatibilidad con Claude Code).
 
-### Option 2: Claude Code Plugin
+### Opción 2: Plugin de Claude Code
 
-Install via Claude Code's built-in plugin system:
+Instalar vía el sistema de plugins de Claude Code:
 
 ```bash
-# Add the marketplace
+# Añadir el marketplace
 /plugin marketplace add Baker-Agency/paid-ads-skills-spain
 
-# Install all skills
+# Instalar todas las skills
 /plugin install paid-ads-skills-spain
 ```
 
-### Option 3: Manual Install
+### Opción 3: Instalación Manual
 
 ```bash
-# Clone the repo
+# Clonar el repo
 git clone https://github.com/Baker-Agency/paid-ads-skills-spain.git
 
-# Copy the skill you want
+# Copiar la skill que quieras
 cp -r paid-ads-skills-spain/skills/google-ads-spain .agents/skills/
 
-# Create symlink for Claude Code
+# Crear symlink para Claude Code
 ln -sf ../../.agents/skills/google-ads-spain .claude/skills/google-ads-spain
 ```
 
-## What's Inside `google-ads-spain`
+## Qué incluye `google-ads-spain`
 
-The skill covers the **complete lifecycle** of Google Ads management for Spain:
+La skill cubre el **ciclo de vida completo** de gestión de Google Ads para España:
 
-| Phase | What it covers |
-|-------|---------------|
-| **Fase 0** | Viabilidad — Rule of Two (EUR), CAC framework, "Winnable Fight" |
-| **Fase 1** | Setup — Account architecture, Spain settings, negative keywords (Spanish) |
-| **Fase 2** | Pujas — Max Clicks → Max Conversions → tCPA → tROAS progression |
-| **Fase 3** | Copy — RSA framework, tú vs usted guide, PAS in Spanish |
-| **Fase 4** | Optimización — Daily/weekly/monthly/quarterly cadence |
-| **Fase 5** | Escalado — Vertical/horizontal scaling, impression share triggers |
-| **Fase 6** | Campañas avanzadas — PMax, Demand Gen, B2B, 7 Search strategies |
+| Fase | Qué cubre |
+|------|-----------|
+| **Fase 0** | Viabilidad — Rule of Two (EUR), framework CAC, "Winnable Fight" |
+| **Fase 1** | Setup — Arquitectura de cuenta, settings España, negativas en español |
+| **Fase 2** | Pujas — Progresión Max Clicks → Max Conversions → tCPA → tROAS |
+| **Fase 3** | Copy — Framework RSA, guía tú vs usted, PAS en español |
+| **Fase 4** | Optimización — Cadencia diaria/semanal/mensual/trimestral |
+| **Fase 5** | Escalado — Vertical/horizontal, triggers de impression share |
+| **Fase 6** | Campañas avanzadas — PMax, Demand Gen, B2B, 7 estrategias Search |
 | **Fase 7** | Tracking — Tiers, GDPR/LOPD, consent mode, OCI |
-| **Fase 8** | Auditoría — Complete audit framework for Spanish accounts |
+| **Fase 8** | Auditoría — Framework completo para cuentas españolas |
 
-### Spain-Specific Content
+### Contenido Específico España
 
-- **IVA 21%** impact on unit economics and margins
-- **LOPD/GDPR** compliance for tracking (high cookie rejection rates in Spain)
-- **Seasonality calendar** — national holidays + Comunidades Autónomas holidays
-- **Consumer behavior** — WhatsApp preference, Bizum, financing, horario partido
-- **Regional targeting** — 17 CC.AA., vocabulary differences, CPC by region
-- **Payroll patterns** — 3rd week weak, end-of-month + Sunday = best push day
-- **Benchmarks** — CPL/CPC by vertical in Spain (clinics, legal, dental, SaaS, etc.)
-- **Spanish experts** — Enrique del Valle, Rafa Madorran, Miriam Navas, and more
+- **IVA 21%** — impacto en unit economics y márgenes
+- **LOPD/GDPR** — compliance para tracking (alta tasa rechazo cookies en España)
+- **Calendario estacional** — festivos nacionales + festivos por Comunidades Autónomas
+- **Comportamiento consumidor** — preferencia WhatsApp, Bizum, financiación, horario partido
+- **Targeting regional** — 17 CC.AA., diferencias vocabulario, CPC por región
+- **Patrones nómina** — 3ª semana débil, fin de mes + domingo = mejor día para push
+- **Benchmarks** — CPL/CPC por vertical en España (clínicas, legal, dental, SaaS, etc.)
+- **Expertos españoles** — Enrique del Valle, Rafa Madorran, Miriam Navas, y más
 
-### Reference Files (14)
+### Archivos de Referencia (14)
 
-| File | Content |
-|------|---------|
+| Archivo | Contenido |
+|---------|-----------|
 | `unit-economics-spain.md` | Rule of Two EUR, CAC, IVA 21% |
-| `campaign-setup-checklist.md` | Step-by-step setup for Spain |
-| `negative-keywords-spanish.md` | Pre-built negative keyword lists in Spanish |
-| `bidding-progression.md` | Complete bidding strategy progression |
-| `spanish-ad-copy.md` | Spanish ad copy, tú vs usted, PAS |
-| `optimization-cadence.md` | Daily/weekly/monthly optimization |
-| `scaling-framework.md` | Vertical/horizontal scaling |
+| `campaign-setup-checklist.md` | Setup paso a paso para España |
+| `negative-keywords-spanish.md` | Listas de negativas pre-hechas en español |
+| `bidding-progression.md` | Progresión completa de estrategia de pujas |
+| `spanish-ad-copy.md` | Copy en español, tú vs usted, PAS |
+| `optimization-cadence.md` | Optimización diaria/semanal/mensual |
+| `scaling-framework.md` | Escalado vertical/horizontal |
 | `campaign-types.md` | Search, PMax, Demand Gen, B2B, AI Max, YouTube |
-| `tracking-spain.md` | Tracking tiers, GDPR/LOPD, OCI |
-| `audit-checklist.md` | Complete audit for Spanish accounts |
-| `automation-scripts.md` | Ninja Scripts, 8020 Agent, AI agents |
-| `spain-market-guide.md` | Holidays, CC.AA., consumer behavior |
-| `quality-score.md` | Quality Score deep dive |
-| `diagnostics.md` | Troubleshooting guide |
+| `tracking-spain.md` | Tiers de tracking, GDPR/LOPD, OCI |
+| `audit-checklist.md` | Auditoría completa para cuentas españolas |
+| `automation-scripts.md` | Ninja Scripts, 8020 Agent, agentes IA |
+| `spain-market-guide.md` | Festivos, CC.AA., comportamiento consumidor |
+| `quality-score.md` | Quality Score en profundidad |
+| `diagnostics.md` | Guía de troubleshooting |
 
-### Case Studies (4)
+### Casos de Éxito (4)
 
-| Example | Results |
-|---------|---------|
-| `clinica-estetica-madrid.md` | €15K+/month extra revenue, CPL €2-4 |
-| `clinica-huelva-8.5x-roas.md` | €2,105 spend → €17K revenue (8.5x ROAS) |
-| `b2b-saas-search-framework.md` | 4-layer prioritization framework |
-| `servicio-local-spain.md` | 0 to 30 conversions/month playbook |
+| Ejemplo | Resultados |
+|---------|------------|
+| `clinica-estetica-madrid.md` | €15K+/mes revenue extra, CPL €2-4 |
+| `clinica-huelva-8.5x-roas.md` | €2.105 gasto → €17K revenue (8.5x ROAS) |
+| `b2b-saas-search-framework.md` | Framework 4 capas de priorización |
+| `servicio-local-spain.md` | De 0 a 30 conversiones/mes |
 
-## Contributing
+## Contribuir
 
-Found a way to improve a skill or have a new one to add? [Open a PR](https://github.com/Baker-Agency/paid-ads-skills-spain/pulls). See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+¿Quieres mejorar una skill o añadir una nueva? [Abre un PR](https://github.com/Baker-Agency/paid-ads-skills-spain/pulls). Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para las guías.
 
-Run into a problem or have a question? [Open an issue](https://github.com/Baker-Agency/paid-ads-skills-spain/issues).
+¿Tienes un problema o una pregunta? [Abre un issue](https://github.com/Baker-Agency/paid-ads-skills-spain/issues).
 
-## License
+## Licencia
 
-MIT — see [LICENSE](LICENSE).
+MIT — ver [LICENSE](LICENSE).
