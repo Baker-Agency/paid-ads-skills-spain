@@ -4,7 +4,7 @@ Colección de skills para agentes IA especializadas en gestión de campañas de 
 
 Compatible con Claude Code, OpenAI Codex, Cursor, Windsurf y cualquier agente que soporte la [Agent Skills spec](https://agentskills.io).
 
-Creado por [Baker Agency](https://github.com/Baker-Agency).
+Creado por [Baker Agency](https://withbaker.com).
 
 ## ¿Qué son las Skills?
 
