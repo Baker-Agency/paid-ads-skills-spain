@@ -16,15 +16,128 @@ Las skills son archivos markdown que dan a los agentes IA conocimiento especiali
 
 ## Skills Disponibles
 
-| Skill | Descripción |
-|-------|-------------|
-| [google-ads-spain](skills/google-ads-spain/) | Gestión completa de Google Ads para España. Setup, optimización, escalado y auditoría de campañas para lead gen, SaaS y servicios. Incluye progresión de pujas, Quality Score, copy en español, tracking GDPR/LOPD, calendario estacional y targeting por CC.AA. |
+| Skill | Plataforma | Descripción |
+|-------|-----------|-------------|
+| [google-ads-spain](skills/google-ads-spain/) | Google Ads | Search, PMax, Demand Gen, YouTube. Progresión de pujas, Quality Score, copy en español, tracking GDPR/LOPD. |
+| [meta-ads-spain](skills/meta-ads-spain/) | Meta Ads (Facebook/Instagram) | Andromeda algorithm, Advantage+, CBO/ABO, Instant Forms, CAPI, creative diversity. |
+| [linkedin-ads-spain](skills/linkedin-ads-spain/) | LinkedIn Ads | B2B full-funnel, ABM, Lead Gen Forms, Revenue Attribution, CAPI, todos los formatos. |
+| [x-ads-spain](skills/x-ads-spain/) | X (Twitter) Ads | Promoted Ads, Vertical Video, keyword targeting, Dynamic Product Ads, X Pixel. |
+| [reddit-ads-spain](skills/reddit-ads-spain/) | Reddit Ads | Subreddit targeting, Reddit Pixel, CAPI, community engagement, prospecting y retargeting. |
+
+> Todas las skills incluyen: benchmarks en EUR, IVA 21%, compliance LOPD/GDPR, calendario estacional, targeting por CC.AA. y copy en español.
 
 ### Próximamente
 
-- `meta-ads-spain` — Meta Ads (Facebook/Instagram) para el mercado español
-- `linkedin-ads-spain` — LinkedIn Ads para B2B en España
 - `tiktok-ads-spain` — TikTok Ads para el mercado español
+
+## Detalle por Skill
+
+<details>
+<summary><strong>google-ads-spain</strong> — Gestión completa de Google Ads</summary>
+
+| Fase | Qué cubre |
+|------|-----------|
+| **Fase 0** | Viabilidad — Rule of Two (EUR), framework CAC, "Winnable Fight" |
+| **Fase 1** | Setup — Arquitectura de cuenta, settings España, negativas en español |
+| **Fase 2** | Pujas — Progresión Max Clicks → Max Conversions → tCPA → tROAS |
+| **Fase 3** | Copy — Framework RSA, guía tú vs usted, PAS en español |
+| **Fase 4** | Optimización — Cadencia diaria/semanal/mensual/trimestral |
+| **Fase 5** | Escalado — Vertical/horizontal, triggers de impression share |
+| **Fase 6** | Campañas avanzadas — PMax, Demand Gen, B2B, 7 estrategias Search |
+| **Fase 7** | Tracking — Tiers, GDPR/LOPD, consent mode, OCI |
+| **Fase 8** | Auditoría — Framework completo para cuentas españolas |
+
+**14 archivos de referencia** — unit economics, setup checklist, negativas en español, pujas, copy, optimización, escalado, campaign types, tracking, auditoría, automation scripts, market guide, Quality Score, diagnostics.
+
+**4 casos de éxito** — clínica estética Madrid (CPL €2-4), clínica Huelva (8.5x ROAS), B2B SaaS framework, servicio local (0→30 conv/mes).
+
+</details>
+
+<details>
+<summary><strong>meta-ads-spain</strong> — Meta Ads (Facebook/Instagram)</summary>
+
+| Fase | Qué cubre |
+|------|-----------|
+| **Fase 0** | Viabilidad — CAC framework EUR, IVA 21% |
+| **Fase 1** | Setup — Business Manager, ad account, dominio, pixel |
+| **Fase 2** | Estructura — CBO vs ABO, One CBO + Flex Ads, Test→Prove→Scale |
+| **Fase 3** | Audiencias — Broad, stacked interests, LAL, retargeting windows |
+| **Fase 4** | Creativos — 4:5 priority, UGC, carousel, copy en español |
+| **Fase 5** | Lead gen — Instant Forms con OTP, routing, engaged leads |
+| **Fase 6** | Optimización — Cadencia hands-off semana 1, semanal/mensual |
+| **Fase 7** | Escalado — Regla del 20%, ENCAC como north star, Signal & Trust |
+| **Fase 8** | Tracking — Pixel/Datasets, CAPI, AEM, EMQ >6.0, GDPR/LOPD |
+| **Fase 9** | Reglas automáticas — CPA ceiling, frequency alerts, budget scaling |
+| **Fase 10** | Auditoría — Pixel → Business Manager → estructura → audiencias → creativos |
+| **Fase 11** | Troubleshooting — Zero delivery, account bans, appeal templates |
+
+**Incluye** — Andromeda algorithm deep dive (GEM, Lattice, Sequence Learning), Special Ad Categories.
+
+</details>
+
+<details>
+<summary><strong>linkedin-ads-spain</strong> — LinkedIn Ads B2B</summary>
+
+| Fase | Qué cubre |
+|------|-----------|
+| **Fase 0** | Viabilidad — Scorecard greenfield, ACV, sales cycle, ICP |
+| **Fase 1** | Setup — Arquitectura por funnel stage, naming conventions |
+| **Fase 2** | Formatos — Text, Image, TLA, Conversation, Document, Video, Carousel, Spotlight, Lead Gen Forms, Partnership |
+| **Fase 3** | Copy — Tú vs usted, emotion-first, PAS, subject lines |
+| **Fase 4** | Full-funnel — Cold/RTG/High-Intent RTG/Acceleration layers |
+| **Fase 5** | Targeting — Filter logic AND, matched audiences, retargeting windows |
+| **Fase 6** | Optimización — Kill rules, frequency, creative refresh, dayparting |
+| **Fase 7** | Escalado — Vertical/horizontal, ABM pilot, incrementality testing |
+| **Fase 8** | Tracking — Insight Tag, CAPI, Offline Conversion Import, Revenue Attribution |
+| **Fase 9** | Auditoría — Tracking → settings → estructura → audiencias → creativos → LPs |
+| **Fase 10** | ABM avanzado — Five Stages Model, account prioritization, ad engagement as intent |
+
+</details>
+
+<details>
+<summary><strong>x-ads-spain</strong> — X (Twitter) Ads</summary>
+
+| Fase | Qué cubre |
+|------|-----------|
+| **Fase 0** | Viabilidad — X Ads vs otras plataformas, CAC framework EUR |
+| **Fase 1** | Setup — Estructura, settings España, Simple vs Advanced modes |
+| **Fase 2** | Formatos — Promoted Ads, Vertical Video, Carousel, Amplify, Takeovers, Collection, Dynamic Product Ads |
+| **Fase 3** | Targeting — Keywords (diferenciador de X), interests, conversation topics, follower look-alikes |
+| **Fase 4** | Pujas — CPE, CPC, CPF, CPV, CPM, CPA; testing €500-1K a enterprise €10K+ |
+| **Fase 5** | Copy — Native-style tweets, tú vs usted, emotional triggers, <100 chars |
+| **Fase 6** | Optimización — Hands-off 7 días, cadencia semanal/mensual |
+| **Fase 7** | Escalado — Vertical deepening, horizontal expansion, format progression |
+| **Fase 8** | Tracking — X Pixel, Enhanced tracking, CAPI, GDPR/LOPD |
+| **Fase 9** | Auditoría — Tracking → settings → estructura → audiencias → creativos → targeting |
+
+**Market data** — 9.8M usuarios en España, 61.7% masculino, 25-34 dominante, 48 min/día. Best sectors: SaaS, fintech, educación, servicios profesionales.
+
+</details>
+
+<details>
+<summary><strong>reddit-ads-spain</strong> — Reddit Ads</summary>
+
+| Fase | Qué cubre |
+|------|-----------|
+| **Fase 0** | Viabilidad — ICP en subreddits españoles, content capability, budget mín. €3-5K/mes |
+| **Fase 1** | Setup — Reddit Pixel, conversion events, audience configuration |
+| **Fase 2** | Targeting — Subreddit targeting, community interests, keyword targeting |
+| **Fase 3** | Campañas — Prospecting vs retargeting, creative formats nativos |
+| **Fase 4** | Tracking — Reddit Pixel, CAPI, attribution |
+
+**Incluye** — Viability scorecard (2+ red lights = no recomendado), unit economics EUR, positioning en channel mix por presupuesto.
+
+</details>
+
+## Contenido Específico España (todas las skills)
+
+- **IVA 21%** — impacto en unit economics y márgenes
+- **LOPD/GDPR** — compliance para tracking (alta tasa rechazo cookies en España)
+- **Calendario estacional** — festivos nacionales + festivos por Comunidades Autónomas
+- **Comportamiento consumidor** — preferencia WhatsApp, Bizum, financiación, horario partido
+- **Targeting regional** — 17 CC.AA., diferencias vocabulario, CPC por región
+- **Patrones nómina** — 3ª semana débil, fin de mes + domingo = mejor día para push
+- **Benchmarks** — CPL/CPC por vertical en España (clínicas, legal, dental, SaaS, etc.)
 
 ## Instalación
 
@@ -38,6 +151,10 @@ npx skills add Baker-Agency/paid-ads-skills-spain
 
 # Instalar una skill específica
 npx skills add Baker-Agency/paid-ads-skills-spain --skill google-ads-spain
+npx skills add Baker-Agency/paid-ads-skills-spain --skill meta-ads-spain
+npx skills add Baker-Agency/paid-ads-skills-spain --skill linkedin-ads-spain
+npx skills add Baker-Agency/paid-ads-skills-spain --skill x-ads-spain
+npx skills add Baker-Agency/paid-ads-skills-spain --skill reddit-ads-spain
 
 # Listar skills disponibles
 npx skills add Baker-Agency/paid-ads-skills-spain --list
@@ -69,61 +186,6 @@ cp -r paid-ads-skills-spain/skills/google-ads-spain .agents/skills/
 # Crear symlink para Claude Code
 ln -sf ../../.agents/skills/google-ads-spain .claude/skills/google-ads-spain
 ```
-
-## Qué incluye `google-ads-spain`
-
-La skill cubre el **ciclo de vida completo** de gestión de Google Ads para España:
-
-| Fase | Qué cubre |
-|------|-----------|
-| **Fase 0** | Viabilidad — Rule of Two (EUR), framework CAC, "Winnable Fight" |
-| **Fase 1** | Setup — Arquitectura de cuenta, settings España, negativas en español |
-| **Fase 2** | Pujas — Progresión Max Clicks → Max Conversions → tCPA → tROAS |
-| **Fase 3** | Copy — Framework RSA, guía tú vs usted, PAS en español |
-| **Fase 4** | Optimización — Cadencia diaria/semanal/mensual/trimestral |
-| **Fase 5** | Escalado — Vertical/horizontal, triggers de impression share |
-| **Fase 6** | Campañas avanzadas — PMax, Demand Gen, B2B, 7 estrategias Search |
-| **Fase 7** | Tracking — Tiers, GDPR/LOPD, consent mode, OCI |
-| **Fase 8** | Auditoría — Framework completo para cuentas españolas |
-
-### Contenido Específico España
-
-- **IVA 21%** — impacto en unit economics y márgenes
-- **LOPD/GDPR** — compliance para tracking (alta tasa rechazo cookies en España)
-- **Calendario estacional** — festivos nacionales + festivos por Comunidades Autónomas
-- **Comportamiento consumidor** — preferencia WhatsApp, Bizum, financiación, horario partido
-- **Targeting regional** — 17 CC.AA., diferencias vocabulario, CPC por región
-- **Patrones nómina** — 3ª semana débil, fin de mes + domingo = mejor día para push
-- **Benchmarks** — CPL/CPC por vertical en España (clínicas, legal, dental, SaaS, etc.)
-- **Expertos españoles** — Enrique del Valle, Rafa Madorran, Miriam Navas, y más
-
-### Archivos de Referencia (14)
-
-| Archivo | Contenido |
-|---------|-----------|
-| `unit-economics-spain.md` | Rule of Two EUR, CAC, IVA 21% |
-| `campaign-setup-checklist.md` | Setup paso a paso para España |
-| `negative-keywords-spanish.md` | Listas de negativas pre-hechas en español |
-| `bidding-progression.md` | Progresión completa de estrategia de pujas |
-| `spanish-ad-copy.md` | Copy en español, tú vs usted, PAS |
-| `optimization-cadence.md` | Optimización diaria/semanal/mensual |
-| `scaling-framework.md` | Escalado vertical/horizontal |
-| `campaign-types.md` | Search, PMax, Demand Gen, B2B, AI Max, YouTube |
-| `tracking-spain.md` | Tiers de tracking, GDPR/LOPD, OCI |
-| `audit-checklist.md` | Auditoría completa para cuentas españolas |
-| `automation-scripts.md` | Ninja Scripts, 8020 Agent, agentes IA |
-| `spain-market-guide.md` | Festivos, CC.AA., comportamiento consumidor |
-| `quality-score.md` | Quality Score en profundidad |
-| `diagnostics.md` | Guía de troubleshooting |
-
-### Casos de Éxito (4)
-
-| Ejemplo | Resultados |
-|---------|------------|
-| `clinica-estetica-madrid.md` | €15K+/mes revenue extra, CPL €2-4 |
-| `clinica-huelva-8.5x-roas.md` | €2.105 gasto → €17K revenue (8.5x ROAS) |
-| `b2b-saas-search-framework.md` | Framework 4 capas de priorización |
-| `servicio-local-spain.md` | De 0 a 30 conversiones/mes |
 
 ## Contribuir
 
