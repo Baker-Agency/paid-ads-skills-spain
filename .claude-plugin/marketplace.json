@@ -16,7 +16,8 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/google-ads-spain"
+        "./skills/google-ads-spain",
+        "./skills/x-ads-spain"
       ]
     }
   ]
