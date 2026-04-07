@@ -17,6 +17,7 @@
       "strict": false,
       "skills": [
         "./skills/google-ads-spain",
+        "./skills/reddit-ads-spain",
         "./skills/x-ads-spain"
       ]
     }
